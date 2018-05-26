@@ -71,6 +71,10 @@ figcaption {
   color: red;
 }
 
+img, video, audio {
+  max-width: 100%;
+}
+
 .wrapper {
   width: 960px;
   margin: 0 auto;
@@ -94,4 +98,13 @@ figcaption {
 }
 .first {
   margin-left: 0%;
+}
+.clearfix:after{
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: : 0;
+
 }
